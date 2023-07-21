@@ -1,4 +1,4 @@
-package ee.test1.project1.customer;
+package ee.test1.domain.customer;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -6,8 +6,7 @@ import lombok.Data;
 @Data
 @AllArgsConstructor
 
-public class Customer {
-    private int id;
+public class CustomerDto {
     private String firstName;
     private String lastName;
 
